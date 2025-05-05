@@ -1,9 +1,9 @@
 # Ignore environment variables file
 .env
 
-# Terraform state
+# Terraform, Terragrunt
 *.tfstate
-
-# Terragrunt local cache
+.terraform/
+backend.tf
 .terragrunt-cache/
 
