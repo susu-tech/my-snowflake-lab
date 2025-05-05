@@ -9,7 +9,13 @@
             "extensions": [
                 "hashicorp.terraform",
                 "hashicorp.hcl"
-            ]
+            ],
+            "settings": {
+                "[terraform]": {
+                    "editor.defaultFormatter": "hashicorp.terraform",
+                    "editor.formatOnSave": true
+                }
+            }
         }
     }
 }
