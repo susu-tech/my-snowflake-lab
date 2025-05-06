@@ -1,2 +1,3 @@
 # my-snowflake-lab
-Snowflakeサンプルコード
+
+Snowflake サンプルコード

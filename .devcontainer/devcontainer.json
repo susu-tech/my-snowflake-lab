@@ -8,11 +8,16 @@
         "vscode": {
             "extensions": [
                 "hashicorp.terraform",
-                "hashicorp.hcl"
+                "hashicorp.hcl",
+                "esbenp.prettier-vscode"
             ],
             "settings": {
                 "[terraform]": {
                     "editor.defaultFormatter": "hashicorp.terraform",
+                    "editor.formatOnSave": true
+                },
+                "[markdown]": {
+                    "editor.defaultFormatter": "esbenp.prettier-vscode",
                     "editor.formatOnSave": true
                 }
             }
